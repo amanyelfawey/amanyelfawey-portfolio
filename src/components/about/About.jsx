@@ -62,8 +62,8 @@ const About = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <a 
-                href="/cv/Amany_Elfawey_CV.pdf" 
-                download="Amany_Elfawey_CV.pdf"
+                href="/cv/Amany-Elfawey-CV.pdf" 
+                download="Amany-Elfawey-CV.pdf"
                 className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center gap-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
