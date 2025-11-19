@@ -62,7 +62,7 @@ const About = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <a 
-                href="/cv/Amany-Elfawey-CV.pdf" 
+                href="https://drive.google.com/file/d/1axNWretORNgm6HXNvSzau3xOe880Md2G/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center gap-2"
