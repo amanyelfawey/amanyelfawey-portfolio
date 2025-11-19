@@ -44,7 +44,7 @@ const Footer = () => {
                 <span className="text-cyan-400">Amany</span> Elfawey
               </h3>
               <p className="text-slate-300 text-sm">
-                Frontend Developer specializing in React.js and Next.js
+                Frontend Developer
               </p>
             </div>
 

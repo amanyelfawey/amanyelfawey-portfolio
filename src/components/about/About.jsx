@@ -18,7 +18,7 @@ const About = () => {
           <div className="space-y-6 animate-fade-in-left">
             <div className="space-y-4">
               <p className="text-lg text-slate-300 leading-relaxed">
-                I'm <span className="text-cyan-400 font-semibold">Amany Elfawey</span>, a passionate Frontend Developer and Programming Instructor with 2+ years of experience 
+                I'm <span className="text-cyan-400 font-semibold">Amany Elfawey</span>, a passionate Frontend Developer and Programming Instructor with +1 year of experience 
                 specializing in React.js, Next.js, and TypeScript. I'm currently working at BSA Engineering Consultancy 
                 developing large-scale ERP systems.
               </p>
@@ -89,8 +89,8 @@ const About = () => {
             {/* Key Stats */}
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-slate-700 p-6 rounded-xl border border-cyan-500/20">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">2+</div>
-                <div className="text-slate-300">Years Experience</div>
+                <div className="text-3xl font-bold text-cyan-400 mb-2">+1</div>
+                <div className="text-slate-300">Year Experience</div>
               </div>
               <div className="bg-slate-700 p-6 rounded-xl border border-cyan-500/20">
                 <div className="text-3xl font-bold text-cyan-400 mb-2">100+</div>

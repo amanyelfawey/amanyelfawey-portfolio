@@ -31,9 +31,9 @@ const Hero = () => {
             
              {/* Role */}
              <div className="space-y-4">
-               <h2 className="text-lg sm:text-xl md:text-2xl text-slate-300 font-medium">
-                 Frontend Developer & Programming Instructor
-               </h2>
+               <h2 className="text-2xl sm:text-xl md:text-2xl text-slate-300 font-medium">
+        Frontend Developer 
+               </h2>         
               {/* <div className="flex flex-wrap gap-3 text-lg text-cyan-300">
                 <span className="bg-slate-800 px-4 py-2 rounded-full border border-cyan-500/30 hover:border-cyan-500/60 transition-all duration-300">React</span>
                 <span className="bg-slate-800 px-4 py-2 rounded-full border border-cyan-500/30 hover:border-cyan-500/60 transition-all duration-300">Next.js</span>
@@ -56,7 +56,7 @@ const Hero = () => {
              <div className="flex flex-wrap gap-3 text-xs sm:text-sm text-slate-300">
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
-                 <span>2+ Years Experience</span>
+                 <span>+1 Year Experience</span>
                </div>
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
@@ -129,9 +129,9 @@ const Hero = () => {
             </h1>
             
              {/* Role */}
-             <div className="space-y-4">
-               <h2 className="text-2xl text-slate-300 font-medium">
-                 Frontend Developer & Programming Instructor
+             <div className="space-y-4 ">
+               <h2 className="text-2xl text-slate-300 font-medium ">
+                 Frontend Developer 
                </h2>
             </div>
             
@@ -149,7 +149,7 @@ const Hero = () => {
              <div className="flex flex-wrap gap-4 text-sm text-slate-300">
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
-                 <span>2+ Years Experience</span>
+                 <span>+1 Year Experience</span>
                </div>
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
