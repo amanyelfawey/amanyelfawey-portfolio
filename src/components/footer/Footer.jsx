@@ -9,6 +9,7 @@ const Footer = () => {
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
     { name: "Experience", href: "#experience" },
+    { name: "Courses", href: "#certifications" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -34,8 +35,8 @@ const Footer = () => {
   ];
 
   return (
-            <footer className="bg-slate-900 border-t border-slate-700 animate-slide-in-bottom">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="bg-slate-900 border-t border-slate-700 animate-slide-in-bottom">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
@@ -52,6 +53,7 @@ const Footer = () => {
               <p className="text-slate-400 text-sm">
                 📧 amanyelfawey5@gmail.com
               </p>
+              <p className="text-slate-400 text-sm">📱 01055657559</p>
               <p className="text-slate-400 text-sm">📍 Alexandria, Egypt</p>
             </div>
           </div>

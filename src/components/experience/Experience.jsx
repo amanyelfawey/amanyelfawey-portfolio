@@ -4,112 +4,112 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Frontend Developer',
-      company: 'BSA Engineering Consultancy',
-      period: 'May 2025 - Present',
-      type: 'Full-time',
-      location: 'Egypt',
-      description: 'Working on a large-scale ERP system, contributing to multiple enterprise-level projects',
+      title: 'Freelance Shopify Developer',
+      company: 'Self-Employed',
+      period: 'May 2026 - Present',
+      type: 'Freelance',
+      location: 'Remote',
+      description: 'Building and customizing e-commerce stores on Shopify for clients',
       achievements: [
-        'Developing and maintaining core frontend features using React.js, TypeScript, and TailwindCSS',
-        'Building and optimizing reusable components to ensure consistency and scalability across the system',
-        'Integrating with backend APIs using React Query to display real-time data efficiently',
-        'Contributing to multiple enterprise-level projects'
+        'Developed custom Shopify themes and features tailored to client requirements',
+        'Built complete e-commerce solutions from scratch including product pages, checkout flows, and payment integration',
+        'Customized store designs to match brand identity while maintaining optimal performance',
+        'Integrated third-party apps and APIs to extend store functionality'
       ],
-      technologies: ['React.js', 'TypeScript', 'TailwindCSS', 'React Query', 'ERP Systems'],
+      technologies: ['Shopify', 'Liquid', 'JavaScript', 'CSS3', 'E-commerce'],
       current: true
     },
     {
       id: 2,
       title: 'Frontend Developer',
+      company: 'BSA Engineering Consultancy',
+      period: 'May 2025 - Present',
+      type: 'Full-time',
+      location: 'Egypt',
+      description: 'Contributing to a large-scale ERP system serving multiple enterprise clients',
+      achievements: [
+        'Built and maintained reusable UI components used across multiple ERP modules for consistency and faster development',
+        'Integrated REST APIs with React Query to keep dashboards synchronized with backend data in real-time',
+        'Optimized component architecture for scalability, reducing code duplication across the system',
+        'Collaborated with backend teams and stakeholders to translate business requirements into functional interfaces'
+      ],
+      technologies: ['React.js', 'TypeScript', 'Tailwind CSS', 'React Query', 'ERP Systems'],
+      current: true
+    },
+    {
+      id: 3,
+      title: 'Frontend Developer',
       company: 'Stem AI',
       period: 'December 2024 - May 2025',
       type: 'Full-time',
       location: 'Egypt',
-      description: 'Contributed to the development of RPAIR, a large-scale competition platform for robotics and programming events',
+      description: 'Built RPAIR, a large-scale competition platform for robotics and programming events',
       achievements: [
-        'Developed a real-time judging system with React.js and WebSocket, enabling instant score updates across all connected devices',
-        'Designed responsive UI components (React.js, Tailwind CSS), ensuring seamless performance across all device types',
-        'Participated in the software development lifecycle — from requirements gathering and prototyping to development, testing, and deployment',
-        'Taught programming fundamentals as a Part-time Programming Instructor, guiding students through Python and Frontend concepts'
+        'Developed real-time judging system using WebSocket, enabling instant score updates across all connected devices',
+        'Designed and implemented responsive UI components for registration, exam access, and judge dashboards using React and Tailwind CSS',
+        'Participated in full SDLC — requirements gathering, prototyping, development, testing, and deployment',
+        'Taught Python and frontend fundamentals as part-time Programming Instructor alongside development work'
       ],
-      technologies: ['React.js', 'WebSocket', 'Tailwind CSS', 'Real-time Updates', 'Python Teaching'],
+      technologies: ['React.js', 'WebSocket', 'Tailwind CSS', 'Real-time Updates', 'SDLC'],
       current: false
     },
     {
-      id: 3,
+      id: 4,
       title: 'Frontend Mentor',
-      company: 'Google DSC MTI University',
-      period: '2023 - 2024',
+      company: 'Google DSC, MTI University',
+      period: 'December 2023 - March 2024',
       type: 'Part-time',
       location: 'Egypt',
-      description: 'Mentored over 100 students in HTML, CSS, JavaScript, and React.js',
+      description: 'Mentored 100+ students in modern frontend development',
       achievements: [
-        'Reviewed code, gave feedback, and organized technical sessions to support student growth',
-        'Mentored students in developing real projects using modern technologies',
-        'Organized technical workshops to enhance student skills'
+        'Conducted code reviews and provided constructive feedback to support student growth in HTML, CSS, JavaScript, and React',
+        'Ran technical workshops and hands-on sessions on modern frontend tools and best practices',
+        'Guided students in building portfolio projects using industry-relevant technologies'
       ],
       technologies: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Mentoring'],
       current: false
     },
     {
-      id: 4,
+      id: 5,
       title: 'Frontend Development Trainee',
       company: 'Information Technology Institute (ITI)',
-      period: 'December 2023 - March 2024',
+      period: 'July 2023 - September 2023',
       type: 'Training',
       location: 'Egypt',
-      description: 'Built over 8 small web projects combining JavaScript and React.js',
+      description: 'Completed intensive frontend training with 8+ hands-on projects',
       achievements: [
-        'Delivered projects under tight deadlines with focus on responsiveness and clean UI',
-        'Developed skills in JavaScript and React.js through practical projects',
-        'Learned best practices in frontend development'
+        'Delivered 8+ frontend projects under fixed deadlines with a focus on responsive design and clean UI',
+        'Strengthened JavaScript and React fundamentals through practical application',
+        'Applied frontend best practices across multiple short-cycle builds'
       ],
       technologies: ['JavaScript', 'React.js', 'Responsive Design', 'Clean UI'],
       current: false
     },
     {
-      id: 5,
+      id: 6,
       title: 'Frontend Development Intern',
       company: 'Code Clause',
       period: 'July 2023 - August 2023',
       type: 'Internship',
       location: 'Remote',
-      description: 'Completed 4 solo web development projects showcasing skills in JavaScript and layout design',
+      description: 'Completed remote internship with 4 solo web development projects',
       achievements: [
-        'Developed solo projects showcasing skills in JavaScript and layout design',
-        'Implemented responsive web applications',
-        'Learned fundamentals of frontend development'
+        'Built 4 end-to-end web applications independently, showcasing JavaScript and layout design skills',
+        'Implemented responsive interfaces compatible across browsers and devices',
+        'Developed practical experience in frontend development fundamentals'
       ],
       technologies: ['JavaScript', 'Layout Design', 'Responsive Web', 'Solo Projects'],
-      current: false
-    },
-    {
-      id: 6,
-      title: 'Frontend Development Student',
-      company: 'Route Academy',
-      period: '2022',
-      type: 'Training Program',
-      location: 'Egypt',
-      description: 'Completed comprehensive frontend development diploma with 10+ real-world projects',
-      achievements: [
-        'Built 10+ practical projects using HTML, CSS, and JavaScript',
-        'Mastered responsive web design principles and best practices',
-        'Developed strong foundation in modern web development',
-        'Completed intensive hands-on training program'
-      ],
-      technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Web Development'],
       current: false
     }
   ];
 
   const education = {
-    degree: 'Bachelor\'s in Computer Science',
-    university: 'Tanta University',
+    degree: 'B.Sc. in Computer Science',
+    university: 'Tanta University — Faculty of Computers and Information',
     period: 'October 2020 - July 2024',
     gpa: '3.11',
     graduationProject: 'A+',
-    description: 'Graduated from the Faculty of Computers and Information with a GPA of 3.11 and earned A+ in the graduation project (AI-based medical system)'
+    description: 'Graduated with GPA 3.11 and earned A+ on graduation project — Medix, an AI-powered medical platform built with Next.js and React for appointment booking and MRI result analysis'
   };
 
   return (
@@ -120,7 +120,7 @@ const Experience = () => {
                     Professional <span className="text-cyan-400">Experience</span>
                   </h2>
                   <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-                    My journey of developing skills and experience in the world of frontend development
+                    Building products, mentoring others, and growing as a frontend developer
                   </p>
                 </div>
 
@@ -162,7 +162,7 @@ const Experience = () => {
 
                     {/* Achievements */}
                     <div className="mb-4">
-                      <h4 className="text-white font-semibold mb-2">Key Achievements:</h4>
+                      <h4 className="text-white font-semibold mb-2">Key Contributions:</h4>
                       <ul className="space-y-2">
                         {exp.achievements.map((achievement, achIndex) => (
                           <li key={achIndex} className="text-slate-300 text-sm flex items-start gap-2">
@@ -175,7 +175,7 @@ const Experience = () => {
 
                     {/* Technologies */}
                     <div>
-                      <h4 className="text-white font-semibold mb-2">Technologies Used:</h4>
+                      <h4 className="text-white font-semibold mb-2">Technologies:</h4>
                       <div className="flex flex-wrap gap-2">
                         {exp.technologies.map((tech, techIndex) => (
                           <span 

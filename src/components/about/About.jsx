@@ -9,7 +9,7 @@ const About = () => {
             About <span className="text-cyan-400">Me</span>
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Frontend Developer specializing in building modern and responsive web applications
+            Frontend Developer specializing in modern React applications and enterprise systems
           </p>
         </div>
 
@@ -18,36 +18,45 @@ const About = () => {
           <div className="space-y-6 animate-fade-in-left">
             <div className="space-y-4">
               <p className="text-lg text-slate-300 leading-relaxed">
-                I'm <span className="text-cyan-400 font-semibold">Amany Elfawey</span>, a passionate Frontend Developer and Programming Instructor with +1 year of experience 
-                specializing in React.js, Next.js, and TypeScript. I'm currently working at BSA Engineering Consultancy 
-                developing large-scale ERP systems.
+                I'm <span className="text-cyan-400 font-semibold">Amany Elfawey</span>, a Frontend Developer 
+                with 1.5+ years of hands-on experience building responsive React applications. Currently working at BSA Engineering Consultancy 
+                on large-scale ERP systems, and also running freelance Shopify projects — building and customizing e-commerce stores for clients.
               </p>
               
               <p className="text-lg text-slate-300 leading-relaxed">
-                My journey in web development started with a strong foundation in HTML, CSS, and JavaScript, 
-                and I've continuously grown to work with modern frameworks. I specialize in creating clean, responsive interfaces 
-                that deliver optimal user experiences and meet business requirements.
+                I specialize in building modern, scalable UI components — from real-time platforms using WebSocket integration to 
+                complex enterprise dashboards with React Query. On the Shopify side, I customize themes, develop custom features, 
+                and create complete e-commerce solutions. My strength lies in translating designs into clean, maintainable code 
+                and collaborating effectively with cross-functional teams throughout the development lifecycle.
               </p>
               
               <p className="text-lg text-slate-300 leading-relaxed">
-                As a Programming Instructor, I'm passionate about sharing knowledge and have mentored 100+ students in their 
-                programming journey. This experience has strengthened my communication skills and deepened my 
-                understanding of different learning approaches.
+                Beyond building products, I've mentored 100+ students in frontend development (HTML, CSS, JavaScript, React) through code reviews and 
+                technical sessions — an experience that sharpened my communication and ability to explain technical concepts clearly.
               </p>
+
+              {/* What I'm looking for */}
+              <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 p-5 rounded-xl border border-cyan-500/30 mt-6">
+                <h4 className="text-white font-semibold mb-2">Currently Open To</h4>
+                <p className="text-slate-300 text-sm leading-relaxed">
+                  Frontend Developer roles in product teams, ERP/SaaS platforms, or modern web applications where I can contribute to building exceptional user experiences.
+                </p>
+              </div>
             </div>
 
             {/* Soft Skills */}
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-white">Soft Skills</h3>
+              <h3 className="text-xl font-semibold text-white">Key Strengths</h3>
               <div className="flex flex-wrap gap-3">
                 {[
-                  'Communication Skills',
+                  'React.js & TypeScript',
+                  'Component Architecture',
+                  'Responsive Design',
                   'Problem Solving',
-                  'Adaptability & Continuous Learning',
-                  'Time Management',
-                  'Leadership',
-                  'Teamwork & Collaboration',
-                  'Mentoring & Teaching'
+                  'Cross-functional Collaboration',
+                  'Code Review',
+                  'Mentoring & Teaching',
+                  'Clean Code'
                 ].map((skill, index) => (
                   <span 
                     key={index}
@@ -62,7 +71,7 @@ const About = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <a 
-                href="https://drive.google.com/file/d/1axNWretORNgm6HXNvSzau3xOe880Md2G/view?usp=sharing" 
+                href="https://drive.google.com/file/d/18dpY-E3TMSX6f-oI3J-Bt9Gxika6AMT8/view" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center gap-2"
@@ -73,13 +82,13 @@ const About = () => {
                 Download CV
               </a>
               <a 
-                href="#projects"
+                href="#contact"
                 className="border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
-                View Projects
+                Let's Connect
               </a>
             </div>
           </div>
@@ -89,16 +98,16 @@ const About = () => {
             {/* Key Stats */}
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-slate-700 p-6 rounded-xl border border-cyan-500/20">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">+1</div>
-                <div className="text-slate-300">Year Experience</div>
+                <div className="text-3xl font-bold text-cyan-400 mb-2">1.5+</div>
+                <div className="text-slate-300">Years Experience</div>
               </div>
               <div className="bg-slate-700 p-6 rounded-xl border border-cyan-500/20">
                 <div className="text-3xl font-bold text-cyan-400 mb-2">100+</div>
                 <div className="text-slate-300">Students Mentored</div>
               </div>
               <div className="bg-slate-700 p-6 rounded-xl border border-cyan-500/20">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">15+</div>
-                <div className="text-slate-300">Projects Completed</div>
+                <div className="text-3xl font-bold text-cyan-400 mb-2">Enterprise</div>
+                <div className="text-slate-300">ERP Systems</div>
               </div>
               <div className="bg-slate-700 p-6 rounded-xl border border-cyan-500/20">
                 <div className="text-3xl font-bold text-cyan-400 mb-2">A+</div>
@@ -108,18 +117,27 @@ const About = () => {
 
             {/* Current Role */}
             <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 p-6 rounded-xl border border-cyan-500/30">
-              <h4 className="text-lg font-semibold text-white mb-2">Current Role</h4>
-              <p className="text-cyan-400 font-medium">Frontend Developer</p>
-              <p className="text-slate-300 text-sm">BSA Engineering Consultancy</p>
-              <p className="text-slate-400 text-xs mt-1">May 2025 - Present</p>
+              <h4 className="text-lg font-semibold text-white mb-3">Current Roles</h4>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-cyan-400 font-medium">Freelance Shopify Developer</p>
+                  <p className="text-slate-300 text-sm">Building e-commerce stores</p>
+                  <p className="text-slate-400 text-xs mt-1">May 2025 - Present</p>
+                </div>
+                <div className="border-t border-cyan-500/20 pt-3">
+                  <p className="text-cyan-400 font-medium">Frontend Developer</p>
+                  <p className="text-slate-300 text-sm">BSA Engineering Consultancy</p>
+                  <p className="text-slate-400 text-xs mt-1">May 2025 - Present</p>
+                </div>
+              </div>
             </div>
 
             {/* Education */}
             <div className="bg-gradient-to-r from-slate-700/50 to-slate-600/50 p-6 rounded-xl border border-slate-600/30">
               <h4 className="text-lg font-semibold text-white mb-2">Education</h4>
-              <p className="text-cyan-400 font-medium">Bachelor's in Computer Science</p>
-              <p className="text-slate-300 text-sm">Tanta University</p>
-              <p className="text-slate-400 text-xs mt-1">2020 - 2024 • GPA: 3.11</p>
+              <p className="text-cyan-400 font-medium">B.Sc. in Computer Science</p>
+              <p className="text-slate-300 text-sm">Tanta University — Faculty of Computers and Information</p>
+              <p className="text-slate-400 text-xs mt-1">Oct 2020 – Jul 2024 • GPA: 3.11</p>
             </div>
           </div>
         </div>

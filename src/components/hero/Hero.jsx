@@ -3,7 +3,7 @@ import profileImage from '../../assets/profile.jpg';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white flex items-center px-4 sm:px-6 lg:px-8 py-8">
+    <section id="home" className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white flex items-center px-4 sm:px-6 lg:px-8 py-8">
       <div className="max-w-7xl mx-auto w-full">
         {/* Mobile Layout */}
         <div className="lg:hidden flex flex-col items-center space-y-6 animate-fade-in-up">
@@ -30,37 +30,32 @@ const Hero = () => {
             </h1>
             
              {/* Role */}
-             <div className="space-y-4">
-               <h2 className="text-2xl sm:text-xl md:text-2xl text-slate-300 font-medium">
-        Frontend Developer 
-               </h2>         
-              {/* <div className="flex flex-wrap gap-3 text-lg text-cyan-300">
-                <span className="bg-slate-800 px-4 py-2 rounded-full border border-cyan-500/30 hover:border-cyan-500/60 transition-all duration-300">React</span>
-                <span className="bg-slate-800 px-4 py-2 rounded-full border border-cyan-500/30 hover:border-cyan-500/60 transition-all duration-300">Next.js</span>
-                <span className="bg-slate-800 px-4 py-2 rounded-full border border-cyan-500/30 hover:border-cyan-500/60 transition-all duration-300">TypeScript</span>
-                <span className="bg-slate-800 px-4 py-2 rounded-full border border-cyan-500/30 hover:border-cyan-500/60 transition-all duration-300">Tailwind</span>
-              </div> */}
+             <div className="space-y-2">
+               <h2 className="text-xl sm:text-2xl text-slate-300 font-medium">
+                 Frontend Developer
+               </h2>
             </div>
             
              {/* Tagline */}
-             <div className="max-w-lg">
-               <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-cyan-300 mb-4">
-                 Where Creativity Meets Code
-               </div>
-               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-400 leading-relaxed">
-               I design and develop modern, user-friendly websites that turn creative ideas into real, functional experiences.
+             <div className="max-w-2xl mx-auto">
+               <p className="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed">
+                 Building scalable, responsive React applications for enterprise systems — specializing in modern UI development, real-time features, and reusable component architecture.
                </p>
              </div>
             
              {/* Key Highlights */}
-             <div className="flex flex-wrap gap-3 text-xs sm:text-sm text-slate-300">
+             <div className="flex flex-wrap gap-3 text-xs sm:text-sm text-slate-300 justify-center">
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
-                 <span>+1 Year Experience</span>
+                 <span>Enterprise ERP Systems</span>
                </div>
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
-                 <span>15+ Projects Delivered</span>
+                 <span>Real-time Platforms</span>
+               </div>
+               <div className="flex items-center gap-2">
+                 <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
+                 <span>Shopify Development</span>
                </div>
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
@@ -129,19 +124,16 @@ const Hero = () => {
             </h1>
             
              {/* Role */}
-             <div className="space-y-4 ">
-               <h2 className="text-2xl text-slate-300 font-medium ">
-                 Frontend Developer 
+             <div className="space-y-2">
+               <h2 className="text-2xl text-slate-300 font-medium">
+                 Frontend Developer
                </h2>
             </div>
             
              {/* Tagline */}
-             <div className="max-w-lg">
-               <div className="text-3xl font-bold text-cyan-300 mb-4">
-                 Where Creativity Meets Code
-               </div>
-               <p className="text-xl text-slate-400 leading-relaxed">
-               I design and develop modern, user-friendly websites that turn creative ideas into real, functional experiences.
+             <div className="max-w-2xl">
+               <p className="text-xl text-slate-300 leading-relaxed">
+                 Building scalable, responsive React applications for enterprise systems — specializing in modern UI development, real-time features, and reusable component architecture.
                </p>
              </div>
             
@@ -149,11 +141,15 @@ const Hero = () => {
              <div className="flex flex-wrap gap-4 text-sm text-slate-300">
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
-                 <span>+1 Year Experience</span>
+                 <span>Enterprise ERP Systems</span>
                </div>
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
-                 <span>15+ Projects Delivered</span>
+                 <span>Real-time Platforms</span>
+               </div>
+               <div className="flex items-center gap-2">
+                 <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
+                 <span>Shopify Development</span>
                </div>
                <div className="flex items-center gap-2">
                  <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
